@@ -55,6 +55,9 @@
   });
 
   async function sendMessage() {
+    if (!newMessage) {
+      return;
+    }
     const data = {
       field: newMessage,
       user: $currentUser?.id,
@@ -66,7 +69,6 @@
   const isAnotherPerson = (message: any) => {
     return message.expand?.user?.username !== $currentUser?.username;
   };
-  console.log(isAnotherPerson(messages));
 </script>
 
 <section class="relative flex flex-col flex-grow justify-center items-center">
