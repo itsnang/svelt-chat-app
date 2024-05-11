@@ -6,12 +6,14 @@
 
 {#if isAnotherPerson}
   <div class="flex mt-4 items-start gap-2.5">
-    <img
-      class="avatar"
-      src={`https://api.dicebear.com/8.x/lorelei/svg`}
-      alt="avatar"
-      width="40px"
-    />
+    <div class="bg-gray-100 rounded-full flex items-center p-3">
+      <img
+        src={`https://media.tenor.com/BEBopBnhjVEAAAAi/peach-and-goma-peach-goma.gif`}
+        alt="avatar"
+        width="40px"
+        height="40px"
+      />
+    </div>
     <div
       class="flex flex-col w-full max-w-[320px] leading-1.5 p-2 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700"
     >
@@ -30,12 +32,14 @@
   </div>
 {:else}
   <div class="flex mt-4 flex-row-reverse gap-2.5">
-    <img
-      class="avatar"
-      src={`https://api.dicebear.com/8.x/lorelei/svg`}
-      alt="avatar"
-      width="40px"
-    />
+    <div class="bg-gray-100 rounded-full flex items-center px-3">
+      <img
+        src={`https://media.tenor.com/SwQT4BBJS0oAAAAi/peach-and-goma-peach-goma.gif`}
+        alt="avatar"
+        width="40px"
+        height="40px"
+      />
+    </div>
     <div
       class="flex flex-col w-full max-w-[320px] leading-1.5 p-2 border-gray-200 bg-rose-100 rounded-e-xl rounded-es-xl dark:bg-gray-700"
     >
