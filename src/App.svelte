@@ -7,7 +7,7 @@
   import { currentUser } from "./lib/pocketbase";
 </script>
 
-<main class="max-w-screen-md mx-auto min-h-screen">
+<main class="max-w-screen-md mx-auto min-h-screen px-8">
   <div>
     <div>
       {#if $currentUser}
